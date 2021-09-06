@@ -45,6 +45,7 @@ if __name__ == '__main__':
     from sklearn.metrics.pairwise import pairwise_distances
     similarity = pairwise_distances(X, metric= 'cosine')
     print(similarity)
+    # formatted matrix: https://docs.google.com/document/d/13sXKPBVra6f6q-XC42iVizlgwjTcE_jT3BOrWjZ-2mM/edit?usp=sharing
 
     #read in the song popularity data
     #data is in # of millions of listens on Spotify as of 9/5/21, rounded to the nearest millionth
